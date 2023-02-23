@@ -50,15 +50,15 @@ public class HlavniProgram {
         nakresliBarevniKolecko(2,12,Color.blue);
 
         zofka.setLocation(290,220);
-        nakresliBarevniKolecko(4,14,Color.blue);
+        nakresliBarevniKolecko(6,15,Color.blue);
 
-        zofka.setLocation(290,300);
-        nakresliBarevniKolecko(6,16,Color.blue);
+        zofka.setLocation(280,310);
+        nakresliBarevniKolecko(6,25,Color.blue);
 
-        zofka.setLocation(270,220);
+        zofka.setLocation(260,220);
         nakresliBarevniKolecko(0.5,5,Color.blue);
 
-        zofka.setLocation(380,220);
+        zofka.setLocation(395,220);
         nakresliBarevniKolecko(0.5,5,Color.blue);
 
         zofka.setLocation(600,220);
