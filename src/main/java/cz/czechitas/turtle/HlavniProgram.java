@@ -12,9 +12,9 @@ public class HlavniProgram {
         zofka.setLocation(150.0,150.0);
        nakresliBarevniRovnostrannyTrojuhelnik(125,Color.darkGray);
 
-       zofka.setLocation(150.0,150.0);
+       zofka.setLocation(149.5,130.0);
        zofka.turnLeft(90);
-       nakresliBarevniKolecko(3,25,Color.yellow);
+       nakresliBarevniKolecko(27.5,Color.yellow);
 
        //Masinka
        zofka.setLocation(600.0,400.0);
@@ -24,10 +24,10 @@ public class HlavniProgram {
        zofka.setLocation(910,400);
        zofka.turnLeft(90);
 
-       nakresliObdelnik(200,100,Color.MAGENTA);
+       nakresliObdelnik(200,100,Color.GREEN);
 
-       zofka.setLocation(797,390);
-       nakresliBarevniKolecko(3,25,Color.gray);
+       zofka.setLocation(797,400);
+       nakresliBarevniKolecko(27,Color.black);
 
 
        zofka.setLocation(597,350);
@@ -35,31 +35,31 @@ public class HlavniProgram {
 
        nakresliBarevniRovnostrannyTrojuhelnik(125, Color.GREEN);
 
-      zofka.setLocation(640,435);
+      zofka.setLocation(640,430);
       zofka.turnRight(90);
 
-      nakresliBarevniKolecko(1,10,Color.GREEN);
+      nakresliBarevniKolecko(10,Color.GREEN);
 
 
-      zofka.setLocation(730,428);
-      nakresliBarevniKolecko(1,10,Color.GREEN);
+      zofka.setLocation(730,426);
+      nakresliBarevniKolecko(10,Color.GREEN);
 
       //Snehulak
 
         zofka.setLocation(300,150);
-        nakresliBarevniKolecko(2,12,Color.blue);
+        nakresliBarevniKolecko(15,Color.blue);
 
-        zofka.setLocation(290,220);
-        nakresliBarevniKolecko(6,15,Color.blue);
+        zofka.setLocation(270,240);
+        nakresliBarevniKolecko(28,Color.blue);
 
-        zofka.setLocation(280,310);
-        nakresliBarevniKolecko(6,25,Color.blue);
+        zofka.setLocation(245,370);
+        nakresliBarevniKolecko(40,Color.blue);
 
-        zofka.setLocation(260,220);
-        nakresliBarevniKolecko(0.5,5,Color.blue);
+        zofka.setLocation(225,222);
+        nakresliBarevniKolecko(10,Color.blue);
 
-        zofka.setLocation(395,220);
-        nakresliBarevniKolecko(0.5,5,Color.blue);
+        zofka.setLocation(410,220);
+        nakresliBarevniKolecko(10,Color.blue);
 
         zofka.setLocation(600,220);
 
@@ -82,12 +82,12 @@ public class HlavniProgram {
         zofka.move(velikostStrany);
         zofka.turnLeft(120);
     }
- public void nakresliBarevniKolecko(double velikostStranyA, double velikostStranyB, Color barva) {
+ public void nakresliBarevniKolecko(double velikostStrany, Color barva) {
     zofka.setPenColor(barva);
     for (int i = 0; i < 15; i++) {
-        zofka.move(velikostStranyA);
+        zofka.move(velikostStrany);
         zofka.turnRight(25);
-        zofka.move(velikostStranyB);
+
     }
 
 
